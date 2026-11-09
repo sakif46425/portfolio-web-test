@@ -1,0 +1,1224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakif Khan | Portfolio</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo.png" />
+
+    <!-- Inline theme bootstrap: applies saved theme before CSS paints, no flash -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          if (t === "light")
+            document.documentElement.setAttribute("data-theme", "light");
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--================ NAVBAR =================-->
+
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#home"><span>Portfolio</span></a>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#skills">Skills</a></li>
+
+          <li><a href="#projects">Projects</a></li>
+
+          <li><a href="#publications">Publications</a></li>
+
+          <li><a href="#education">Education</a></li>
+
+          <li><a href="#additional">More</a></li>
+
+          <li><a href="#references">References</a></li>
+
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark / light mode"
+          >
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+
+          <button
+            class="menu-btn"
+            type="button"
+            aria-label="Open navigation"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!--================ HERO =================-->
+
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="hero-kicker">
+          <span class="status-dot"></span> OPEN TO OPPORTUNITIES
+        </p>
+        <h1>Sakif Khan<span class="name-period">.</span></h1>
+
+        <h2
+          id="role-text"
+          data-roles="Computer Science &amp; Engineering,Frontend Developer,Machine Learning Enthusiast,Software Engineer,QA Engineer"
+        >
+          Computer Science &amp; Engineering
+        </h2>
+
+        <p>
+          I build thoughtful digital experiences and practical machine-learning
+          solutions. My work spans responsive web applications, data-driven
+          projects, and predictive modelling. I enjoy solving problems, learning
+          new technologies, and turning ideas into reliable products.
+        </p>
+
+        <div class="buttons">
+          <a href="#projects" class="btn"
+            >Explore My Work <i class="fas fa-arrow-right"></i
+          ></a>
+
+          <a href="./assets/Sakif_Khan_CV.pdf" class="btn btn-outline" download>
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+
+        <div class="socials">
+          <a
+            href="https://github.com/sakif46425"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/sakif-khan"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="mailto:sakifkhan1340@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+
+          <a href="tel:+8801979284530" aria-label="Phone">
+            <i class="fas fa-phone"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="./assets/images/profile.jpg" alt="Sakif Khan" />
+      </div>
+    </section>
+
+    <!--================ ABOUT =================-->
+
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-content glass">
+        <p>
+          I'm Sakif Khan, a Computer Science and Engineering graduate from
+          American International University-Bangladesh (AIUB). I'm
+          detail-oriented and enjoy turning data and ideas into working software
+          — whether that's a prediction model or a polished interface.
+        </p>
+
+        <p>
+          I build responsive websites with HTML, CSS, JavaScript, and React, and
+          I develop machine-learning systems using TensorFlow, Keras,
+          Scikit-learn and Flask — spanning everything from disease
+          classification models to full-stack dashboards.
+        </p>
+
+        <p>
+          Currently exploring opportunities where I can contribute, grow, and
+          build useful technology.
+        </p>
+      </div>
+    </section>
+
+    <!--================ SKILLS =================-->
+
+    <section id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-category glass">
+          <h3>Languages</h3>
+          <div class="skill-bars">
+            <div class="skill-bar" data-level="70">
+              <div class="skill-bar-head">
+                <span>C</span><span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="72">
+              <div class="skill-bar-head">
+                <span>C++</span><span class="skill-percent">72%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="90">
+              <div class="skill-bar-head">
+                <span>Python</span><span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="85">
+              <div class="skill-bar-head">
+                <span>JavaScript</span><span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="62">
+              <div class="skill-bar-head">
+                <span>Java</span><span class="skill-percent">62%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="58">
+              <div class="skill-bar-head">
+                <span>C#</span><span class="skill-percent">58%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <h3>Web</h3>
+          <div class="skill-bars">
+            <div class="skill-bar" data-level="92">
+              <div class="skill-bar-head">
+                <span>HTML</span><span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="88">
+              <div class="skill-bar-head">
+                <span>CSS</span><span class="skill-percent">88%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="80">
+              <div class="skill-bar-head">
+                <span>Tailwind CSS</span><span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="82">
+              <div class="skill-bar-head">
+                <span>React.js</span><span class="skill-percent">82%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="76">
+              <div class="skill-bar-head">
+                <span>React Router</span><span class="skill-percent">76%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <h3>Data / ML</h3>
+          <div class="skill-bars">
+            <div class="skill-bar" data-level="80">
+              <div class="skill-bar-head">
+                <span>TensorFlow</span><span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="78">
+              <div class="skill-bar-head">
+                <span>Keras</span><span class="skill-percent">78%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="86">
+              <div class="skill-bar-head">
+                <span>Scikit-learn</span><span class="skill-percent">86%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="83">
+              <div class="skill-bar-head">
+                <span>Pandas</span><span class="skill-percent">83%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="80">
+              <div class="skill-bar-head">
+                <span>NumPy</span><span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="74">
+              <div class="skill-bar-head">
+                <span>CNN (ResNet-50, VGG-16)</span
+                ><span class="skill-percent">74%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <h3>DB & CS Fundamentals</h3>
+          <div class="skill-bars">
+            <div class="skill-bar" data-level="78">
+              <div class="skill-bar-head">
+                <span>SQL</span><span class="skill-percent">78%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="85">
+              <div class="skill-bar-head">
+                <span>OOP</span><span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="81">
+              <div class="skill-bar-head">
+                <span>Data Structures & Algorithms</span
+                ><span class="skill-percent">81%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="64">
+              <div class="skill-bar-head">
+                <span>Basic Networking</span
+                ><span class="skill-percent">64%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <h3>Tools</h3>
+          <div class="skill-bars">
+            <div class="skill-bar" data-level="86">
+              <div class="skill-bar-head">
+                <span>Git</span><span class="skill-percent">86%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="86">
+              <div class="skill-bar-head">
+                <span>GitHub</span><span class="skill-percent">86%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="90">
+              <div class="skill-bar-head">
+                <span>VS Code</span><span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="75">
+              <div class="skill-bar-head">
+                <span>Flask</span><span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="60">
+              <div class="skill-bar-head">
+                <span>AWS</span><span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+            <div class="skill-bar" data-level="55">
+              <div class="skill-bar-head">
+                <span>Figma</span><span class="skill-percent">55%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--================ PROJECTS =================-->
+
+    <section id="projects">
+      <h2 class="section-title">Featured Projects</h2>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="systems">
+          Systems & Desktop
+        </button>
+      </div>
+
+      <div class="projects">
+        <div class="project-card" data-category="ml">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/projects/dengue-risk.jpg"
+              alt="Dengue Patient Risk Stratification"
+              onerror="this.remove()"
+            />
+            <i class="fas fa-syringe thumb-icon"></i>
+          </div>
+          <div class="project-body">
+            <h3>Dengue Patient Risk Stratification</h3>
+            <p>
+              Hybrid ML model classifying dengue patients by risk level; 98.53%
+              accuracy with clinical safety rules.
+            </p>
+            <div class="tech-tags">
+              <span>Python</span><span>Scikit-learn</span><span>K-Means</span
+              ><span>Random Forest</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-link" target="_blank" rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="#"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-file-lines"></i>Paper</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card project-card-featured" data-category="ml">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/comparative.png"
+              alt="Comparative Study of Machine Learning Models for Earthquake Magnitude Prediction"
+              onerror="this.remove()"
+            />
+            <span class="thumb-badge">Featured · Thesis</span>
+          </div>
+          <div class="project-body">
+            <h3>
+              Comparative Study of Machine Learning Models for Earthquake
+              Magnitude Prediction
+            </h3>
+            <p class="project-meta">
+              <span
+                ><strong>Type:</strong> Thesis / Machine Learning Research
+                Project</span
+              >
+              <span
+                ><strong>Role:</strong> Researcher & Machine Learning
+                Developer</span
+              >
+            </p>
+            <p>
+              Developed a comparative machine learning framework for predicting
+              earthquake magnitude from seismic records. The project evaluated
+              six regression models — Linear Regression, Support Vector
+              Regression, K-Nearest Neighbors, Decision Tree, Random Forest, and
+              XGBoost — using MAE, RMSE, and R² evaluation metrics, with data
+              preprocessing, feature standardization, an 80:20 train-test split,
+              multi-model training, performance comparison, feature importance
+              analysis, and magnitude-class visualization.
+            </p>
+
+            <div class="highlight-stat">
+              <i class="fas fa-trophy"></i>
+              <span>
+                <strong>XGBoost</strong> led the field — R²
+                <strong>0.9262</strong>, MAE <strong>0.1574</strong>, RMSE
+                <strong>0.2242</strong>
+              </span>
+            </div>
+
+            <ul class="feature-list">
+              <li>
+                Comparative analysis of six machine learning regression models
+              </li>
+              <li>Automated data preprocessing and feature scaling</li>
+              <li>Model evaluation using MAE, RMSE, and R² Score</li>
+              <li>XGBoost-based feature importance analysis</li>
+              <li>Actual vs. predicted earthquake magnitude visualization</li>
+              <li>Magnitude classification using confusion matrix analysis</li>
+            </ul>
+
+            <p class="project-outcome">
+              <strong>Research Outcome:</strong> the study showed ensemble and
+              boosting-based models — particularly XGBoost — are highly
+              effective for modeling nonlinear relationships in seismic data.
+            </p>
+
+            <div class="tech-tags">
+              <span>Python</span><span>Pandas</span><span>NumPy</span
+              ><span>Scikit-learn</span><span>XGBoost</span
+              ><span>Data Preprocessing</span><span>Data Analysis</span
+              ><span>Data Visualization</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/Thesis-paper"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="./assets/earthquake_magnitude_prediction_thesis.pdf"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-file-lines"></i> Thesis Paper</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="ml">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/data_science.png"
+              alt="Hotel & Restaurant Review Clustering"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>Hotel & Restaurant Review Clustering</h3>
+            <p>
+              Sentiment-based clustering of large review datasets to surface
+              recurring feedback themes.
+            </p>
+            <div class="tech-tags">
+              <span>R</span><span>NLP</span><span>TF-IDF</span
+              ><span>Clustering</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/Data-Science-project"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="./assets/Hotel & Restaurant Review Clustering.pdf"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-file-lines"></i>Paper</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/hero_app.png"
+              alt="Hero Apps"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>Hero Apps</h3>
+            <p>
+              Responsive React.js App Store with live search, sorting, charts,
+              and localStorage install/uninstall.
+            </p>
+            <div class="tech-tags">
+              <span>React.js</span><span>React Router</span
+              ><span>JavaScript ES6+</span><span>Tailwind</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/Hero-Apps"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="https://herobd.netlify.app/"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/skycast.png"
+              alt="SkyCast"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>SkyCast</h3>
+            <p>
+              A premium and responsive weather dashboard built with HTML, CSS,
+              and JavaScript. Integrated with the OpenWeatherMap API to provide
+              real-time weather updates, 5-day forecasts, favorite cities,
+              geolocation support, authentication, profile management, and a
+              modern dark/light mode interface.
+            </p>
+            <div class="tech-tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript ES6+</span
+              ><span>OpenWeatherMap API</span><span>Geolocation API</span
+              ><span>LocalStorage</span><span>Responsive Web Design</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/Sky-Cast"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="https://sakif46425.github.io/Sky-Cast/"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/flower.png"
+              alt="Responsive Flowers Website"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>Responsive Flowers Website</h3>
+            <p>
+              A modern and responsive flower website designed to showcase
+              beautiful floral products through a clean and visually appealing
+              interface. This project focuses on responsive web design,
+              structured HTML layouts, CSS styling, and creating a smooth user
+              experience across desktop, tablet, and mobile devices.
+            </p>
+            <div class="tech-tags"><span>HTML5</span><span>CSS3</span></div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/B12A02-Responsive-Flowers-Web-Dev"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="https://sakif46425.github.io/B12A02-Responsive-Flowers-Web-Dev/"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/career.png"
+              alt="CareerHub – Job Finder Platform"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>CareerHub – Job Finder Platform</h3>
+            <p>
+              A responsive React-based job platform featuring job search,
+              filtering, authentication, saved jobs, applications, dashboard,
+              and dark/light mode.
+            </p>
+            <div class="tech-tags">
+              <span>React.js</span><span>Tailwind CSS</span
+              ><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/careerhub"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="https://bdjobhub.netlify.app/"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/spend_wise.png"
+              alt="SpendWise – Personal Finance Tracker"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>SpendWise – Personal Finance Tracker</h3>
+            <p>
+              A responsive personal finance management web application developed
+              using HTML, CSS, and JavaScript. The application enables users to
+              track income, expenses, balance, and savings through an intuitive
+              dashboard. It includes transaction management, financial data
+              visualization, profile management, dark/light mode, transaction
+              filtering, and CSV export functionality. LocalStorage was used to
+              persist user and transaction data within the browser.
+            </p>
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS3</span><span>JavaScript</span
+              ><span>LocalStorage</span><span>Font Awesome</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/Personal-Finance-Tracker"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="https://sakif46425.github.io/Personal-Finance-Tracker/"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/customer_support.png"
+              alt="Customer Support Ticket System"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>Customer Support Ticket System</h3>
+            <p>
+              Responsive dashboard with real-time ticket tracking,
+              notifications, and full lifecycle management.
+            </p>
+            <div class="tech-tags">
+              <span>React.js</span><span>JavaScript ES6</span
+              ><span>React-Toastify</span><span>JSON</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/Customer-Support-section"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="https://customer-support-section.netlify.app"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/green_earth.png"
+              alt="Plant Green Earth"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>Plant Green Earth</h3>
+            <p>
+              Responsive campaign web app with API-based data loading,
+              filtering, modals, and a cart system.
+            </p>
+            <div class="tech-tags">
+              <span>HTML</span><span>Tailwind / DaisyUI</span
+              ><span>JavaScript ES6</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/B12A06-Green-Earth"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="https://sakif46425.github.io/B12A06-Green-Earth"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/hot_line.png"
+              alt="Bangladesh Emergency Hotline"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>Bangladesh Emergency Hotline</h3>
+            <p>
+              Responsive emergency hotline directory with interactive cards and
+              real-time UI updates.
+            </p>
+            <div class="tech-tags">
+              <span>HTML</span><span>Tailwind / DaisyUI</span
+              ><span>Vanilla JS</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/B12-A5-Emergency-Hotline"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+              <a
+                href="https://sakif46425.github.io/B12-A5-Emergency-Hotline/"
+                class="proj-link proj-link-demo"
+                target="_blank"
+                rel="noopener"
+                ><i class="fas fa-arrow-up-right-from-square"></i> Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="systems">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/rainy_day.png"
+              alt="Rainy Day City Simulation"
+              onerror="this.remove()"
+            />
+          </div>
+          <div class="project-body">
+            <h3>Rainy Day (City Simulation)</h3>
+            <p>
+              Interactive OpenGL city simulation with dynamic weather, traffic
+              control, and sound effects.
+            </p>
+            <div class="tech-tags">
+              <span>C/C++</span><span>OpenGL</span><span>GLUT</span
+              ><span>WinMM</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/Computer-graphics-University-project"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="systems">
+          <div class="project-thumb">
+            <img
+              src="./assets/images/projects/rock-paper-scissors.jpg"
+              alt="Rock-Paper-Scissors Game"
+              onerror="this.remove()"
+            />
+            <i class="fas fa-hand-scissors thumb-icon"></i>
+          </div>
+          <div class="project-body">
+            <h3>Rock-Paper-Scissors Game</h3>
+            <p>
+              Interactive desktop game with event-driven logic, real-time score
+              tracking, and dynamic UI.
+            </p>
+            <div class="tech-tags">
+              <span>C#</span><span>.NET Framework</span><span>WinForms</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/sakif46425/CSharp-university-project"
+                class="proj-link"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--================ PUBLICATIONS =================-->
+
+    <section id="publications">
+      <h2 class="section-title">Publications & Certifications</h2>
+
+      <div class="pub-grid">
+        <div class="pub-card glass">
+          <span class="pub-tag">Publication · 2026</span>
+          <h3>Development of an Automatic Door Opening System Using Arduino</h3>
+          <span class="pub-venue">ResearchGate</span>
+          <p>
+            Design and implementation of an Arduino-based contactless door
+            system integrating proximity sensing with servo actuation.
+          </p>
+          <span></span>
+
+          <a
+            href="https://www.researchgate.net/publication/405061460_Development_of_an_Automatic_Door_Opening_System_Using_Arduino"
+            class="proj-link"
+            target="_blank"
+            rel="noopener"
+            ><i class="fas fa-file-lines"></i> Read Publication</a
+          >
+        </div>
+
+        <div class="pub-card glass">
+          <span class="pub-tag">Certification · Jan 2022</span>
+          <h3>IT Essentials</h3>
+          <span class="pub-venue">Cisco</span>
+          <p>
+            Foundational certification covering hardware, networking, and
+            troubleshooting essentials.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--================ EDUCATION =================-->
+
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+
+      <div class="education-list">
+        <div class="education-card">
+          <h3>BSc in Computer Science & Engineering</h3>
+          <span>American International University-Bangladesh</span>
+          <p class="edu-period">2022 – 2026</p>
+          <p class="edu-detail">
+            Relevant coursework: Data Structures & Algorithms, OOP, DBMS, Web
+            Application Development, AI & Machine Learning, Computer Networks,
+            Software Engineering, Data Science, Data Mining.
+          </p>
+        </div>
+
+        <div class="education-card">
+          <h3>HSC</h3>
+          <span>Agricultural University College, Mymensingh</span>
+          <p class="edu-period">2018 – 2020</p>
+          <p class="edu-detail">GPA 5.00</p>
+        </div>
+
+        <div class="education-card">
+          <h3>SSC</h3>
+          <span>Progressive Model School, Mymensingh</span>
+          <p class="edu-period">2017 – 2018</p>
+          <p class="edu-detail">GPA 4.94</p>
+        </div>
+      </div>
+    </section>
+
+    <!--================ ADDITIONAL INFO =================-->
+
+    <section id="additional">
+      <h2 class="section-title">Beyond the Code</h2>
+
+      <div class="info-grid">
+        <div class="info-card glass">
+          <h3><i class="fas fa-camera"></i> Extracurricular</h3>
+          <p>General Member, AIUB Photography Club (2023–2024)</p>
+          <p>
+            Volunteer, Tale of the Darkroom III — International Photography
+            Exhibition
+          </p>
+          <a
+            href="./assets/images/darkroom.jpeg"
+            class="proj-link proj-link-demo"
+            target="_blank"
+            rel="noopener"
+            ><i class="fas fa-file-lines"></i> Showcased Work</a
+          >
+        </div>
+
+        <div class="info-card glass">
+          <h3><i class="fas fa-language"></i> Languages</h3>
+          <div class="skill-tags">
+            <span>Bangla — Native</span>
+            <span>English — Professional</span>
+          </div>
+        </div>
+
+        <div class="info-card glass">
+          <h3><i class="fas fa-comments"></i> Soft Skills</h3>
+          <div class="skill-tags">
+            <span>Communication</span>
+            <span>Teamwork</span>
+            <span>Problem-Solving</span>
+            <span>Time Management</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--================ REFERENCES =================-->
+
+    <section id="references">
+      <h2 class="section-title">References</h2>
+
+      <div class="ref-grid">
+        <div class="ref-card glass">
+          <div class="ref-avatar"><i class="fas fa-user-tie"></i></div>
+          <h3>Md. Mahmudur Rahman</h3>
+          <span class="ref-role">Lecturer, Department of Computer Science</span>
+          <span class="ref-org"
+            >American International University-Bangladesh</span
+          >
+        </div>
+
+        <div class="ref-card glass">
+          <div class="ref-avatar"><i class="fas fa-user-tie"></i></div>
+          <h3>Ashief Hasan Khan</h3>
+          <span class="ref-role">Director (Operation)</span>
+          <span class="ref-org">Wendler Interlining Bangladesh Limited</span>
+          <ul class="ref-contact">
+            <li>
+              <i class="fas fa-location-dot"></i>
+              <span>House 27, Road 44, Gulshan-2, Dhaka-1212, Bangladesh</span>
+            </li>
+            <li>
+              <a href="tel:+8801711477245">
+                <i class="fas fa-phone"></i>
+                <span>+88 01711-477245</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:ashief.khan@wendlerinside.com">
+                <i class="fas fa-envelope"></i>
+                <span>ashief.khan@wendlerinside.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--================ CONTACT =================-->
+
+    <section id="contact">
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="contact-wrap">
+        <div class="contact-info glass">
+          <h3>Let's talk</h3>
+          <p>
+            Open to entry-level Software Engineering, QA, or Data/AI Engineering
+            opportunities. Reach out any time.
+          </p>
+
+          <ul>
+            <li>
+              <i class="fas fa-location-dot"></i>
+              <span>Kazibari, Kuril, Dhaka</span>
+            </li>
+            <li>
+              <a href="tel:+8801979284530">
+                <i class="fas fa-phone"></i>
+                <span>+880 1979-284530</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:sakifkhan1340@gmail.com">
+                <i class="fas fa-envelope"></i>
+                <span>sakifkhan1340@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/sakif-khan"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-linkedin"></i>
+                <span>linkedin.com/in/sakif-khan</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/sakif46425"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github"></i>
+                <span>github.com/sakif46425</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form
+          id="contactForm"
+          action="https://formspree.io/f/YOUR_FORM_ID"
+          method="POST"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+
+          <input type="email" name="email" placeholder="Email" required />
+
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <input
+            type="text"
+            name="_gotcha"
+            style="display: none"
+            tabindex="-1"
+            autocomplete="off"
+          />
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!--================ FOOTER =================-->
+
+    <footer>
+      <p>© 2026 Sakif Khan | All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
